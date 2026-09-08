@@ -1,0 +1,171 @@
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background-color: #f4f6f8;
+
+}
+
+.login-container {
+
+  width: 350px;
+
+  margin: 100px auto;
+
+  padding: 30px;
+
+  background-color: white;
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.login-container h1 {
+
+  text-align: center;
+
+  margin-bottom: 30px;
+
+  font-size: 24px
+
+}
+
+.login-container h2 {
+
+  text-align: center;
+
+}
+
+.login-container form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+}
+
+.login-container input {
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+}
+
+.login-container button {
+
+  padding: 12px;
+
+  margin-top: 10px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  background-color: #2563eb;
+
+  color: white;
+
+}
+
+.books-container {
+
+  padding: 30px;
+
+}
+
+.books-container h1 {
+
+  text-align: center;
+
+}
+
+.books-container h2 {
+
+  margin-bottom: 20px;
+
+}
+
+.books-container form {
+
+  display: flex;
+
+  gap: 10px;
+
+  margin-bottom: 30px;
+
+}
+
+.books-container input {
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+}
+
+.books-container button {
+
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  background-color: #2563eb;
+
+  color: white;
+
+  font-weight: bold;
+
+}
+
+.books-container table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+}
+
+.books-container th,
+
+.books-container td {
+
+  border: 1px solid #ccc;
+
+  padding: 10px;
+
+  text-align: left;
+
+}
+
+.books-container th {
+
+  background-color: #f0f0f0;
+
+}
+
+.books-container > button {
+
+  margin-bottom: 20px;
+
+}
